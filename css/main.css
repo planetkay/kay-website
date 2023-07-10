@@ -4,6 +4,9 @@ body{
     margin: 0 auto;
     font-size: 20px;
     line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+     Arial, sans-serif;
+     margin-right: auto;
 }
 
 header{
@@ -13,6 +16,10 @@ header{
     padding-bottom: 50px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+header a{
+    color:antiquewhite;
 }
 
 header h1{
@@ -31,7 +38,6 @@ header img{
 main{
     max-width:1920px;
     padding: 25px 50px 100px 50px
-
 }
 
 main img{
@@ -39,17 +45,38 @@ main img{
 }
 
 footer{
-    padding: 10px 50px 15px 50px;
+    padding: 15px 50px 15px 50px;
     background-color: rgb(172, 157, 138) ;
     color:antiquewhite;
 }
 footer p{
     margin: 0px;
+    line-height: 20px;
 }
 footer a{
-    color:antiquewhite
+    color:antiquewhite;
+    word-spacing: normal;
+    margin:auto;
+    font-size: 25px;
+    line-height: 20px;
+
 }
 footer a:hover{
     color:rgb(208, 216, 224);
     background-color: transparent;
+}
+footer img{
+    max-width: 25px;
+    max-height: 25px;
+    padding: 0 0 0 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+div{
+    color:antiquewhite;
+    font-size: 30px;
+    font-family: 'Fugaz One', 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 100px;
 }
